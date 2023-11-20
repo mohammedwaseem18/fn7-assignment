@@ -1,0 +1,63 @@
+ 
+.task{
+  background-color: rgb(40, 27, 87);
+  color:white;
+
+} 
+
+
+.task-manager-container {
+
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-style: italic;
+  color: white;
+  
+} 
+
+.task-inputs {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+} 
+
+.description-input {
+  border: 1px solid black;
+  padding: 8px;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border-radius: 100px;
+
+} 
+
+
+
+
+@media (max-width: 600px) {
+  .task-inputs input,
+  .task-inputs textarea,
+  .task-inputs select,
+  .task-inputs button,
+  .description-input {
+    width: 100%;
+  }
+  
+
+
+
+}
+
+
+  
+
+
+
+
+
+
+  
